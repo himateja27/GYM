@@ -1,4 +1,5 @@
 [
   {"id":1,"name":"B. Parmesh","title":"International Chief Instructor","photo":"https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=1","certifications":["5x World Champion","Coach Level 1"]},
-  {"id":2,"name":"A. Rao","title":"Head Coach - Kickboxing","photo":"https://images.unsplash.com/photo-1541534401786-4276a6a4a8a6?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=1","certifications":["National Champion","Strength & Conditioning"]}
+  {"id":2,"name":"A. Rao","title":"Head Coach - Kickboxing","photo":"https://images.unsplash.com/photo-1541534401786-4276a6a4a8a6?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=1","certifications":["National Champion","Strength & Conditioning"]},
+  {"id":3,"name":"Azhar","title":"Assistant Coach - Muay Thai","photo":"https://images.unsplash.com/photo-1541534401786-4276a6a4a8a6?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=1","certifications":["Regional Champion","Conditioning Specialist"]}
 ]
