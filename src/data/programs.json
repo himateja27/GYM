@@ -1,0 +1,5 @@
+[
+  {"id":1,"title":"Karate","description":"Traditional karate training for discipline and technique.","level":"All levels","age":"8+","duration":"60 mins","image":"https://images.unsplash.com/photo-1526403224749-7d83d6f6d4b2?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=1"},
+  {"id":2,"title":"Kickboxing","description":"High intensity striking and conditioning.","level":"Intermediate","age":"12+","duration":"60 mins","image":"https://images.unsplash.com/photo-1546484959-f9f2b73f4b8b?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=1"},
+  {"id":3,"title":"Brazilian Jiu-Jitsu","description":"Ground game and submission grappling.","level":"All levels","age":"10+","duration":"75 mins","image":"https://images.unsplash.com/photo-1506806732259-39c2d0268443?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=1"}
+]

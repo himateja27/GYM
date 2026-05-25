@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --brand-black:#050505;
+  --brand-gold:#D4AF37;
+}
+
+html,body,#root{height:100%}
+body{
+  @apply bg-black text-white antialiased;
+  font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto;
+}
+
+.glass{
+  background:rgba(255,255,255,0.03);
+  backdrop-filter: blur(6px);
+}

@@ -1,0 +1,5 @@
+[
+  {"id":1,"name":"Monthly","price":"₹2,499","features":["Unlimited classes","Access to gym"],"recommended":false,"discount":""},
+  {"id":2,"name":"6 Months","price":"₹12,499","features":["Unlimited classes","Priority booking","1 PT session"],"recommended":true,"discount":"25%"},
+  {"id":3,"name":"12 Months","price":"₹22,499","features":["All benefits","Free gear pack"],"recommended":false,"discount":""}
+]
