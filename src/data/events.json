@@ -1,4 +1,4 @@
 [
-  {"id":1,"title":"KBFI National Championship","description":"Annual national championship for elite fighters.","date":"2026-08-15","location":"Hyderabad"},
-  {"id":2,"title":"International Open","description":"Open tournament with international competitors.","date":"2026-11-20","location":"Dubai"}
+  {"id":1,"title":"FCA International Combat Cup","description":"Global strike tournament for MMA and combat sports athletes.","date":"2026-08-15","location":"Hyderabad","imageKey":"event-championship"},
+  {"id":2,"title":"Master Azhar Fight Camp","description":"Elite training camp and athlete development program.","date":"2026-11-20","location":"Dubai","imageKey":"event-championship"}
 ]

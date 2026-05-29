@@ -1,6 +1,6 @@
-# KBFI Headquarters — Frontend (Vite + React)
+# Fighters Combat Academy — Frontend (Vite + React)
 
-Production-ready frontend for KBFI Headquarters built with Vite, React, Tailwind CSS, Framer Motion, and Swiper.
+Production-ready frontend for Fighters Combat Academy built with Vite, React, Tailwind CSS, Framer Motion, and Swiper.
 
 ## 🚀 Quick Start
 

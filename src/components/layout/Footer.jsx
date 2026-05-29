@@ -1,38 +1,48 @@
 import React from 'react'
-import { Facebook, Instagram, Twitter } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { Instagram, Facebook, Youtube, MapPin, Mail, Phone } from 'lucide-react'
 
 export default function Footer(){
   return (
-    <footer className="border-t border-gray-800 bg-black/60 py-12">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
-        <div>
-          <div className="h-12 w-12 rounded-full bg-yellow-500 flex items-center justify-center text-black font-bold">K</div>
-          <p className="mt-3 text-gray-300 text-sm max-w-xs">KBFI Headquarters — Elite martial arts training across international disciplines.</p>
+    <footer className="border-t border-gray-900 bg-black/80 py-16 text-gray-300">
+      <div className="max-w-7xl mx-auto grid gap-10 px-6 md:grid-cols-4">
+        <div className="space-y-4">
+          <div className="flex h-12 w-12 items-center justify-center rounded-3xl bg-yellow-500 text-black font-bold">F</div>
+          <p className="max-w-xs text-sm text-gray-400">Fighters Combat Academy is Hyderabad’s premium combat sports training destination led by Master Azhar.</p>
+          <div className="flex items-center gap-3">
+            <a href="https://www.instagram.com/MasterAzharFCA" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-yellow-400"><Instagram size={18} /></a>
+            <a href="https://www.facebook.com/MasterAzharFCA" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-yellow-400"><Facebook size={18} /></a>
+            <a href="https://www.youtube.com/@MasterAzharFCA" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-yellow-400"><Youtube size={18} /></a>
+          </div>
         </div>
 
         <div>
-          <h4 className="text-sm font-semibold text-gray-200">Quick Links</h4>
-          <ul className="mt-3 text-gray-400 text-sm space-y-2">
-            <li>Programs</li>
-            <li>Trainers</li>
-            <li>Membership</li>
-            <li>Events</li>
+          <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-white">Explore</h4>
+          <ul className="mt-4 space-y-3 text-sm text-gray-400">
+            <li><Link to="/about" className="hover:text-yellow-400">About</Link></li>
+            <li><Link to="/programs" className="hover:text-yellow-400">Programs</Link></li>
+            <li><Link to="/trainers" className="hover:text-yellow-400">Trainers</Link></li>
+            <li><Link to="/membership" className="hover:text-yellow-400">Membership</Link></li>
+            <li><Link to="/gallery" className="hover:text-yellow-400">Gallery</Link></li>
           </ul>
         </div>
 
         <div>
-          <h4 className="text-sm font-semibold text-gray-200">Contact</h4>
-          <p className="mt-3 text-gray-400 text-sm">BTR Tower, 2nd Floor, Prem Nagar, Kondapur, Hyderabad – 500049</p>
-          <p className="mt-2 text-gray-400 text-sm">+91 9553041347 | +91 8712217250</p>
+          <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-white">Contact</h4>
+          <div className="mt-4 space-y-3 text-sm text-gray-400">
+            <p className="flex items-start gap-2"><MapPin size={16} className="mt-1" />BTR Tower, 2nd Floor, Prem Nagar, Kondapur, Hyderabad</p>
+            <p className="flex items-center gap-2"><Phone size={16} />+91 95530 41347</p>
+            <p className="flex items-center gap-2"><Mail size={16} />contact@fighterscombatacademy.com</p>
+          </div>
         </div>
 
         <div>
-          <h4 className="text-sm font-semibold text-gray-200">Newsletter</h4>
-          <p className="mt-3 text-gray-400 text-sm">Join our newsletter for elite updates and exclusive offers.</p>
+          <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-white">Insights</h4>
+          <p className="mt-4 text-sm text-gray-400">Join the academy newsletter for premium fight camp invites, workshop alerts, and elite training updates.</p>
         </div>
       </div>
 
-      <div className="mt-8 text-center text-gray-500 text-sm">© {new Date().getFullYear()} KBFI Headquarters. All rights reserved.</div>
+      <div className="mt-12 border-t border-white/10 pt-8 text-center text-sm text-gray-500">© {new Date().getFullYear()} Fighters Combat Academy. All rights reserved.</div>
     </footer>
   )
 }
