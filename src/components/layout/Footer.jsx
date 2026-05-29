@@ -30,9 +30,9 @@ export default function Footer(){
         <div>
           <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-white">Contact</h4>
           <div className="mt-4 space-y-3 text-sm text-gray-400">
-            <p className="flex items-start gap-2"><MapPin size={16} className="mt-1" />BTR Tower, 2nd Floor, Prem Nagar, Kondapur, Hyderabad</p>
-            <p className="flex items-center gap-2"><Phone size={16} />+91 95530 41347</p>
-            <p className="flex items-center gap-2"><Mail size={16} />contact@fighterscombatacademy.com</p>
+            <p className="flex items-start gap-2"><MapPin size={16} className="mt-1" /><a href="https://www.google.com/maps/search/?api=1&query=BTR+Tower+Prem+Nagar+Kondapur+Hyderabad" target="_blank" rel="noreferrer" className="hover:text-yellow-400">BTR Tower, 2nd Floor, Prem Nagar, Kondapur, Hyderabad</a></p>
+            <p className="flex items-center gap-2"><Phone size={16} /><a href="tel:+919553041347" className="hover:text-yellow-400">+91 95530 41347</a></p>
+            <p className="flex items-center gap-2"><Mail size={16} /><a href="mailto:contact@fighterscombatacademy.com" className="hover:text-yellow-400">contact@fighterscombatacademy.com</a></p>
           </div>
         </div>
 
